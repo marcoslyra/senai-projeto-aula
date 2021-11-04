@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Site</title>
+    <script type="text/javascript" src="js/script.js"></script>
     <!--Folhas de Estilo-->
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
@@ -24,7 +26,28 @@
            
         </nav>
     </header>
-
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="img/brotherhood-800x400.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img src="img/fortinite-800-400.png" class="d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img src="img/mine-800x400.jpg" class="d-block w-100" alt="3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        
         <div class="section-banner-home">
             <div class="container-fluid">
                 <div class="row m-0">
@@ -53,35 +76,35 @@
                     </section> 
                     <!-- Fim da tag section com o texto destaque-->
                     <!-- Início da imagem 1-->
-                    <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-3 pr-0">
                         <figure>
                             <a href="jogos.html"><img src="img/painel-super-mario-bros.jpg" alt="galeria" width="100%"></a>
                         </figure>
                     </div>
                     <!-- Fim da imagem 1-->
                     <!-- Início da imagem 2-->
-                    <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-3 pr-0">
                         <figure>
                             <a href="jogos.html"><img src="img/painel-super-mario-bros.jpg" alt="galeria" width="100%"></a>
                         </figure>
                     </div>
                     <!-- Fim da imagem 2-->
                     <!-- Início da imagem 3-->
-                    <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-3 pr-0">
                         <figure>
                             <a href="jogos.html"><img src="img/painel-super-mario-bros.jpg" alt="galeria" width="100%"></a>
                         </figure>
                     </div>
                     <!-- Fim da imagem 3-->
                     <!-- Início da imagem 4-->
-                    <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-3 pr-0">
                         <figure>
                             <a href="jogos.html"><img src="img/painel-super-mario-bros.jpg" alt="galeria" width="100%"></a>
                         </figure>
                     </div>
                     <!-- Fim da imagem 4-->
                     <!-- Início da imagem 5-->
-                    <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-3 pr-0">
                         <figure>
                             <a href="jogos.html"><img src="img/painel-super-mario-bros.jpg" alt="galeria" width="100%"></a>
                         </figure>
@@ -192,14 +215,14 @@
                         <div class="container">
                             <div class="row m-0">
                                 <!--Início do logo-->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <figure>
                                         <img src="img/senai_small.jpg" alt="logo-rodape" width="40%">
                                     </figure>
                                 </div>
                                 <!--Fim do logo-->
                                 <!--Início do texto-->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="info-contato">
                                         <p>Email:</p>
                                         <p>example@vault.com</p><br>
@@ -214,7 +237,7 @@
                                 <!--Crtl + Espaço mostra o caminho do arquivo em src-->
 
                                 <!--Início das mídias sociais-->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <figure class="redes-sociais">
                                         <a href="#"><img src="img/face.png" alt=""></a>
                                         <a href="#"><img src="img/insta.png" alt=""></a>
@@ -245,4 +268,5 @@
         </div>
 </body>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
